@@ -7,7 +7,7 @@ This project is inspired by Gunnar Morling's work 1BRC:
 - https://www.morling.dev/blog/one-billion-row-challenge
 - https://github.com/gunnarmorling/1brc  
 
-as well as some problems that I had to solve in the line of my own work.
+as well as some problems that I had to solve in the line of my own work.  
 However, it is not a canonical 1BCR implementation.  
 I was more interested in finding an acceptable solution for:  
 1) solving quadratic equations;  
