@@ -15,6 +15,9 @@ I was more interested in finding an acceptable solution for:
 2) executing some OHLCV related calculations, like VWAP or moving averages;  
 
 Mind that at the moment it is merely a storage of scripts, not ready for a distribution project.  
+There is ManyRecordsExplanation.pdf, telling all about the data, scripts and performance results.
+The folder QE is for Quadratic Equations.  
+The folder CE ofr Cubical Equations.  
 
 ## Creating the data
 Begin by installing the requirements:
@@ -53,4 +56,4 @@ There are several scripts that demonstrates usage of different instruments for s
 3) mr-qe-polars.py - using Polars DataFrame for reading and storing data;
 
 All scripts open the file qe_data_<number_of_records>_same.csv and write into qe_results.csv file.  
-There is ManyRecordsExplanation.pdf, telling all about the data, scripts and performance results.
+
