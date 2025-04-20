@@ -1,7 +1,7 @@
 # ManyRecords
 (develop an acceptable solution for a file containing many quadratic equation records)
 
-## Python solutions for the 1B records problem
+## Python solutions for the problem similar to 1BR
 
 This project is inspired by Gunnar Morling's work 1BRC:  
 - https://www.morling.dev/blog/one-billion-row-challenge
