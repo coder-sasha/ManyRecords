@@ -1,5 +1,5 @@
 # ManyRecords  
-## C++ solution for the ManyRecords Quadrartic Equations
+## C++ solution for the ManyRecords Quadratic Equations
 
 This is merely a storage folder, not a distribution.  
 
