@@ -7,13 +7,13 @@ This is merely a storage folder, not a distribution.
 Use `make-many-qe-records.py` or `make-many-qe-same-records.py` to generate CSV data file of any size.
 
 
-## Build executable with provided CMake file
+## Build executable with provided CMake file  
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build .
 
-This creates the folder bin and build the executable  mr-qe-par
+This creates the folder bin and build the executable  mr-qe-par  
 All executables open the file qe_data_1000_same.csv and write into qe_data_1000_same_res.csv.  
 
 ## Have the data ready...  
