@@ -1,6 +1,6 @@
 // 2024
 // The Project ManyRecords. C++ solution
-// MR-QE-Parallel.cpp: read it all and sove and save with std::parallel
+// MR-QE-Parallel.cpp: read it all and solve with std::parallel
 //
 
 // needed to compile csv.h
@@ -137,7 +137,7 @@ int main(int argc, char** argv)
 		qe_data = qe_read_into_vec(data_name, qe_data);
 		std::cout << qe_data.size() << " equations. Reading time: ";
 		if (duration_ms < 1)
-			std::cout << duration_us << "µs\n";
+			std::cout << duration_us << "Âµs\n";
 		else
 		{
 			std::cout << (duration_ms > 1000.0 ? (duration_ms / 1000.0) : duration_ms) << "ms\n";
@@ -152,7 +152,7 @@ int main(int argc, char** argv)
 
 		std::cout << "CPU time: ";
 		if (duration_ms < 1)
-			std::cout << duration_us << "µs\n";
+			std::cout << duration_us << "Âµs\n";
 		else
 			std::cout << duration_ms << "ms\n";
 
@@ -172,7 +172,7 @@ int main(int argc, char** argv)
 
 	std::cout << "ret=" << ret << "\tTotal running time : ";
 	if (duration_ms < 1)
-		std::cout << duration_us << "µs\n";
+		std::cout << duration_us << "Âµs\n";
 	else
 		std::cout << (duration_ms > 1000.0 ? (duration_ms / 1000.0) : duration_ms) << "ms\n";
 
